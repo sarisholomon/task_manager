@@ -11,6 +11,6 @@ urlpatterns = [
     path('task/claim/<int:id>/', views.task_claim, name='claim'),
     path('task/complete/<int:id>/', views.task_complete, name='complete'),
     path('select-role-and-team/', views.select_role_and_team, name='select_role_and_team'),
-
+path('logout/', views.logout_view, name='logout'),
 
 ]
